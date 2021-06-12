@@ -1,0 +1,43 @@
+.App {
+  font-family: sans-serif;
+  text-align: center;
+  max-width: 600px;
+  margin: auto;
+  padding: 2rem;
+}
+
+.btn-genres {
+  cursor: pointer;
+  background: rgb(229, 231, 235);
+  border-radius: 0.5rem;
+  padding: 0.5rem 1rem;
+  border: 1px solid black;
+  margin: 1rem 0.3rem;
+}
+
+.animes {
+  list-style: none;
+  padding: 1rem;
+  border: 1px solid rgb(209, 213, 219);
+  width: 80%;
+  margin: 1rem 0rem;
+  border-radius: 0.5rem;
+}
+
+.img-logo {
+  position: relative;
+  width: 40px;
+  height: 40px;
+  overflow: hidden;
+  border-radius: 50%;
+}
+.wrapper {
+  display: grid;
+  grid-template-columns: 20% 80%;
+}
+.one {
+  grid-row: 1;
+}
+.two {
+  grid-row: 1;
+}
