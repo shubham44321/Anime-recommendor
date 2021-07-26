@@ -1,5 +1,5 @@
 import "./styles.css";
-import React, { useState } from "react";
+import React, { useState,useEffect } from "react";
 
 const animeDictionary = {
   shonen: [
@@ -95,7 +95,9 @@ export default function App() {
   const getAnimeList = (genre) => {
     setAnimeList(animeDictionary[genre]);
   };
-
+  useEffect(() => {
+    getAnimeList('shonen');
+  },[])
   return (
     <div className="App">
       <h1>Anime Recommendor</h1>
